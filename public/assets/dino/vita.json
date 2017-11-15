@@ -1,5 +1,6 @@
-{ "frames": {
-   "DinoSprites (VITA) 0.ase": {
+{ "frames": [
+   {
+    "filename": "DinoSprites (VITA) 0.ase",
     "frame": { "x": 0, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -7,7 +8,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 1.ase": {
+   {
+    "filename": "DinoSprites (VITA) 1.ase",
     "frame": { "x": 24, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -15,7 +17,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 2.ase": {
+   {
+    "filename": "DinoSprites (VITA) 2.ase",
     "frame": { "x": 48, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -23,7 +26,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 3.ase": {
+   {
+    "filename": "DinoSprites (VITA) 3.ase",
     "frame": { "x": 72, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -31,7 +35,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 4.ase": {
+   {
+    "filename": "DinoSprites (VITA) 4.ase",
     "frame": { "x": 96, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -39,7 +44,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 5.ase": {
+   {
+    "filename": "DinoSprites (VITA) 5.ase",
     "frame": { "x": 120, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -47,7 +53,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 6.ase": {
+   {
+    "filename": "DinoSprites (VITA) 6.ase",
     "frame": { "x": 144, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -55,7 +62,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 7.ase": {
+   {
+    "filename": "DinoSprites (VITA) 7.ase",
     "frame": { "x": 168, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -63,7 +71,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 8.ase": {
+   {
+    "filename": "DinoSprites (VITA) 8.ase",
     "frame": { "x": 192, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -71,7 +80,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 9.ase": {
+   {
+    "filename": "DinoSprites (VITA) 9.ase",
     "frame": { "x": 216, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -79,7 +89,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 10.ase": {
+   {
+    "filename": "DinoSprites (VITA) 10.ase",
     "frame": { "x": 240, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -87,7 +98,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 1000
    },
-   "DinoSprites (VITA) 11.ase": {
+   {
+    "filename": "DinoSprites (VITA) 11.ase",
     "frame": { "x": 264, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -95,7 +107,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 12.ase": {
+   {
+    "filename": "DinoSprites (VITA) 12.ase",
     "frame": { "x": 288, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -103,7 +116,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 13.ase": {
+   {
+    "filename": "DinoSprites (VITA) 13.ase",
     "frame": { "x": 312, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -111,7 +125,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 1000
    },
-   "DinoSprites (VITA) 14.ase": {
+   {
+    "filename": "DinoSprites (VITA) 14.ase",
     "frame": { "x": 336, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -119,7 +134,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 15.ase": {
+   {
+    "filename": "DinoSprites (VITA) 15.ase",
     "frame": { "x": 360, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -127,7 +143,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 16.ase": {
+   {
+    "filename": "DinoSprites (VITA) 16.ase",
     "frame": { "x": 384, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -135,7 +152,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 17.ase": {
+   {
+    "filename": "DinoSprites (VITA) 17.ase",
     "frame": { "x": 408, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -143,7 +161,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 18.ase": {
+   {
+    "filename": "DinoSprites (VITA) 18.ase",
     "frame": { "x": 432, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -151,7 +170,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 19.ase": {
+   {
+    "filename": "DinoSprites (VITA) 19.ase",
     "frame": { "x": 456, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -159,7 +179,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 20.ase": {
+   {
+    "filename": "DinoSprites (VITA) 20.ase",
     "frame": { "x": 480, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -167,7 +188,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 21.ase": {
+   {
+    "filename": "DinoSprites (VITA) 21.ase",
     "frame": { "x": 504, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -175,7 +197,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 22.ase": {
+   {
+    "filename": "DinoSprites (VITA) 22.ase",
     "frame": { "x": 528, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -183,7 +206,8 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    },
-   "DinoSprites (VITA) 23.ase": {
+   {
+    "filename": "DinoSprites (VITA) 23.ase",
     "frame": { "x": 552, "y": 0, "w": 24, "h": 24 },
     "rotated": false,
     "trimmed": false,
@@ -191,11 +215,10 @@
     "sourceSize": { "w": 24, "h": 24 },
     "duration": 100
    }
- },
+ ],
  "meta": {
   "app": "http://www.aseprite.org/",
   "version": "1.2.4-x64",
-  "image": "C:\\Users\\aerze\\projects\\animation\\public\\assets\\dino\\vita.png",
   "format": "I8",
   "size": { "w": 576, "h": 24 },
   "scale": "1",
