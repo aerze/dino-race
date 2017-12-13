@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/aerze/dino-race#readme",
   "dependencies": {
+    "npm-run-all": "^4.1.2",
     "phaser-ce": "^2.8.8",
     "webfontloader": "^1.6.28"
   },
