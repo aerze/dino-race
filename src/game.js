@@ -43,9 +43,6 @@ class GameState {
     this.dino.body.velocity.x = 100
 
     this.game.camera.follow(this.dino)
-    // this.game.camera.view.centerOn(this.dino)
-    // this.game.camera.scale.setTo(2)
-    // this.game.world.scale.setTo(4)
 
     this.cursors = this.game.input.keyboard.createCursorKeys()
   }
