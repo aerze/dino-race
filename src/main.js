@@ -5,7 +5,7 @@ import LoadState from './load'
 import MenuState from './menu'
 import GameState from './game'
 
-const game = new Phaser.Game(512, 256, Phaser.AUTO, 'canvas')
+const game = new Phaser.Game(512, 512, Phaser.AUTO, 'canvas')
 game.state.add('boot', new BootState(game))
 game.state.add('load', new LoadState(game))
 game.state.add('menu', new MenuState(game))

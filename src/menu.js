@@ -22,8 +22,8 @@ class MainState {
     dino.anchor.set(0.5)
     dino.scale.set(4)
 
-    dino.animations.add('idle', [0, 1, 2, 3], 15, true)
-
+    dino.animations.add('idle', [0, 1, 2, 3], 10, true)
+    dino.animations.play('idle')
     return dino
   }
 
@@ -34,8 +34,7 @@ class MainState {
    * @param {string} content
    */
   makeText (x, y, content) {
-    const fontOptions = { font: '26px Arial', fill: '#FFFFFF' }
-    const text = this.game.add.text(x, y, content, fontOptions)
+    const text = this.game.add.bitmapText(x, y, 'white', content)
     text.anchor.set(0.5)
     return text
   }
@@ -63,10 +62,59 @@ class MainState {
 
     this.makeText(this.game.canvas.width / 2, 60, 'Choose a Dino')
 
+    const text = this.makeText(this.game.canvas.width / 2, 85, 'Full screen')
+    text.inputEnabled = true
+    text.events.onInputDown.add(this.fullScreen, this)
+
     const vita = this.createCharacterSelect(150, 200, 'vita')
     const mort = this.createCharacterSelect(350, 200, 'mort')
     const tard = this.createCharacterSelect(150, 400, 'tard')
     const doux = this.createCharacterSelect(350, 400, 'doux')
+
+    this.game.input.gamepad.start()
+    this.connect(this.game.input.gamepad.pad1)
+    this.connect(this.game.input.gamepad.pad2)
+    this.connect(this.game.input.gamepad.pad3)
+    this.connect(this.game.input.gamepad.pad4)
+  }
+
+  /**
+   * Attach gamepad event listeners
+   * @param {Phaser.SinglePad} gamepad
+   */
+  connect (gamepad) {
+    gamepad.addCallbacks(this, {
+      onConnect () {
+        console.log(`P${gamepad.index + 1}`, 'connect', gamepad)
+      },
+      onDisconnect () {
+        console.log(`P${gamepad.index + 1}`, 'disconnect', gamepad)
+      },
+      onDown (code) {
+        console.log(`P${gamepad.index + 1}`, 'down', code)
+      },
+      onUp (code) {
+        console.log(`P${gamepad.index + 1}`, 'up', code)
+      },
+      onAxis (gamepad, axis, value) {
+        console.log(`P${gamepad.index + 1}`, 'axis', axis, value)
+      },
+      onFloat (gamepad) {
+        console.log(`P${gamepad.index + 1}`, 'float', gamepad)
+      }
+    })
+  }
+
+  render () {
+    // this.game.debug.inputInfo(32, 32)
+  }
+
+  fullScreen () {
+    if (this.game.scale.isFullScreen) {
+      this.game.scale.stopFullScreen()
+    } else {
+      this.game.scale.startFullScreen()
+    }
   }
 }
 

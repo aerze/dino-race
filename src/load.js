@@ -17,6 +17,9 @@ class LoadState {
     const fontOptions = { font: '30px Papyrus', fill: '#ffffff' }
     this.game.add.text(8, 8, 'loading..', fontOptions)
 
+    this.game.load.bitmapFont('black', 'assets/PressStart2P_24.png', 'assets/PressStart2P_24.fnt')
+    this.game.load.bitmapFont('white', 'assets/PressStart2P_24w.png', 'assets/PressStart2P_24w.fnt')
+
     this.loadAtlas('vita')
     this.loadAtlas('doux')
     this.loadAtlas('mort')

@@ -10,9 +10,9 @@ class BootState {
   }
 
   create () {
-    // this.game.scale.scaleMode = Phaser.ScaleManager.EXACT_FIT
-    // this.game.scale.setUserScale(4, 4)
     Phaser.Canvas.setImageRenderingCrisp(this.game.canvas)
+    this.game.scale.fullScreenScaleMode = Phaser.ScaleManager.SHOW_ALL
+
     this.game.renderer.renderSession.roundPixels = false
 
     this.game.physics.startSystem(Phaser.Physics.ARCADE)

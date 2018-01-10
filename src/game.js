@@ -26,8 +26,8 @@ class GameState {
     this.backgroundLayer1 = this.map.createLayer('background1')
     this.backgroundLayer2 = this.map.createLayer('background2')
     this.groundLayer = this.map.createLayer('platforms')
-    this.groundLayer.anchor.setTo(1, 0)
-    this.groundLayer.position.setTo(0, this.game.canvas.height)
+    // this.groundLayer.anchor.setTo(1, 0)
+    // this.groundLayer.position.setTo(0, this.game.canvas.height)
 
     this.map.setCollisionBetween(1, 999, true, 'platforms')
 
@@ -45,12 +45,13 @@ class GameState {
     this.game.camera.follow(this.dino)
 
     this.cursors = this.game.input.keyboard.createCursorKeys()
+    this.game.input.mouse.capture = true
   }
 
   update () {
     this.game.physics.arcade.collide(this.dino, this.groundLayer)
 
-    if (this.cursors.up.isDown) {
+    if (this.cursors.up.isDown || this.game.input.activePointer.leftButton.isDown) {
       this.dino.body.velocity.y = -500
     }
   }
