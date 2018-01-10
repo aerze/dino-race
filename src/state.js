@@ -3,14 +3,14 @@ import Phaser from 'phaser-ce'
 class MainState {
   /**
    * Creates new state
-   * @param {Phaser.Game} game 
+   * @param {Phaser.Game} game
    */
   constructor (game) {
     this.game = game
   }
 
   preload () {
-    // load spritesheet
+    // load sprite sheet
     this.game.load.atlas('vita', '/assets/dino/vita.png', '/assets/dino/vita.json', Phaser.Loader.TEXTURE_ATLAS_JSON_ARRAY)
     this.game.scale.scaleMode = Phaser.ScaleManager.USER_SCALE
     this.game.scale.setUserScale(4, 4)
