@@ -1,9 +1,9 @@
 {
   "name": "dino-race",
   "version": "1.0.0",
-    "description": "Phaser scrolling, animation, and controller implementation demo",
+  "description": "Phaser scrolling, animation, and controller implementation demo",
   "scripts": {
-    "start": "npm run webpack &` npm run static",
+    "start": "npm run webpack & npm run static",
     "webpack": "webpack -w",
     "static": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\" ./public",
     "test": "standard ./src"
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/aerze/dino-race#readme",
   "dependencies": {
+    "npm-run-all": "^4.1.2",
     "phaser-ce": "^2.8.8",
     "webfontloader": "^1.6.28"
   },
